@@ -192,33 +192,12 @@ This pattern is commonly used when building **AI agents**.
 ```text
 langchain-tools/
 │
-├── ddgs/
-│   ├── search.py
-│   └── README.md
-│
-├── shell_tool/
-│   ├── shell.py
-│   └── README.md
-│
+├── ddgs
+├── shell_tool
 ├── requirements.txt
-├── .env
 └── README.md
 ```
-
-### `ddgs/search.py`
-
-Contains the DDGS web-search implementation.
-
-### `shell_tool/shell.py`
-
-Contains the LangChain Shell Tool implementation.
-
-### `requirements.txt`
-
-Contains the required Python dependencies.
-
 ---
-
 # 📦 Dependencies
 
 Main packages used in this project:

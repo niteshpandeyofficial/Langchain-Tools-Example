@@ -4,3 +4,5 @@ langchain-community
 pydantic
 duckduckgo-search
 langchain_experimental
+langchain-openai
+requests
